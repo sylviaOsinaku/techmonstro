@@ -1,0 +1,57 @@
+.intro-wrapper {
+  width: 85%;
+  padding-top: 7.5em;
+  margin: auto;
+  margin-bottom: 3em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  align-items: center;
+}
+
+.intro-wrapper h1 {
+  color: #fce0e9;
+  margin-bottom: 1em;
+}
+
+.intro-wrapper p {
+  font-size: 1.1rem;
+  margin-bottom: .8em;
+}
+
+.my-profile-image {
+  width: 35%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.hubportfolio {
+
+  background: -webkit-linear-gradient(90deg, rgb(191, 65, 197) 0%, rgb(248, 6, 139) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 660px) {
+  .intro-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .my-profile-image {
+    width: 50%;
+
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+
+
+  .my-profile-image {
+    width: 80%;
+
+
+  }
+}

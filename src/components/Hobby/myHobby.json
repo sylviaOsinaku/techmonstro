@@ -1,0 +1,86 @@
+[
+  {
+    "id": "photography",
+    "title": "Photography",
+    "description": "Photography is my way of capturing moments and expressing my creativity. Here are some of my favorite shots:",
+    "items": [{ "name": "Check out my photoGallery on Hiking" }]
+  },
+  {
+    "id": "gaming",
+    "title": "Gaming",
+    "description": "I'm an avid gamer and love exploring virtual worlds. Check out some of the games I've played:",
+    "items": [
+      { "name": "The Elder Scrolls" },
+      { "name": "Tomb Raider" },
+      { "name": "Assassin's Creed" }
+    ]
+  },
+  {
+    "id": "volunteering",
+    "title": "Volunteering",
+    "description": "I believe in giving back to the community. Here are some of the volunteering activities I've been involved in:",
+    "items": [
+      { "name": "Smile(Mentor)" },
+      { "name": "Raising Hands Foundation" },
+      { "name": "Rotary Club" }
+    ]
+  },
+
+  {
+    "id": "writing",
+    "title": "Writing",
+    "description": "Writing allows me to express my thoughts and share my knowledge. Here are some articles I've written:",
+    "items": [
+      { "name": "Article 1" },
+      { "name": "Article 2" },
+      { "name": "Article 3" }
+    ]
+  },
+  {
+    "id": "creative-design",
+    "title": "Creative Design",
+    "description": "I have a flair for creative design. Here are some of my design projects:",
+    "items": [{ "name": "Check out my photo gallery" }]
+  },
+
+  {
+    "id": "hiking",
+    "title": "Hiking",
+    "description": "Hiking is one of my favorite ways to connect with nature and unwind. Here are some of my memorable hiking experiences:",
+    "items": [
+      { "name": "Erin Ijesha Waterfalls, Osun" },
+      { "name": "Idanre Hills, Ondo" },
+      { "name": "Arinta Waterfalls, Ekiti" }
+    ]
+  },
+  {
+    "id": "coding",
+    "title": "Coding",
+    "description": "Coding is both my profession and hobby. Here are some of the programming languages and frameworks I'm proficient in:",
+    "items": [
+      { "name": "Javascript" },
+      { "name": "Python" },
+      { "name": "NodeJs" }
+    ]
+  },
+  {
+    "id": "reading",
+    "title": "Reading",
+    "description": "I'm an avid reader and love exploring different genres. Here are some of my favorite books:",
+    "items": [
+      { "name": "Son of the house" },
+      { "name": "A brokens people playlist" },
+      { "name": "Americana" }
+    ]
+  },
+  {
+    "id": "dancing",
+    "title": "Dancing",
+    "description": "Dancing is my way of expressing myself and staying active. Here are some dance styles I enjoy:",
+    "items": [
+      { "name": "Gwawangwara" },
+      { "name": "Unavailble" },
+      { "name": "Afrobeat" }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+.nav-wrapper {
+  background: rgb(113, 26, 117);
+  background: linear-gradient(90deg, rgb(94, 23, 98) 0%, rgb(141, 7, 81) 100%);
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  font-family: monospace;
+  font-size: .9rem;
+  margin-left: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.nav__link:hover {
+  background-color: rgba(113, 26, 117, 0.8);
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+
+}
+
+
+@media(max-width: 375px) {
+  .nav-wrapper {
+    padding: .5em;
+  }
+}
