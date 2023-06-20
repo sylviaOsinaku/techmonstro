@@ -31,6 +31,7 @@ const Form = () => {
       isValid = false;
       newErrors.password = "password length is > 6";
     }
+
     setError(newErrors);
     return isValid;
   };

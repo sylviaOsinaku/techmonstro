@@ -5,7 +5,6 @@ import IconLetterU from "../../theme/MyLogo";
 import { Link } from "react-scroll";
 
 function MainNavigation() {
-  const [showNav, setShowNav] = useState(null);
   function refreshPage() {
     window.location.reload(false);
   }
@@ -15,8 +14,8 @@ function MainNavigation() {
         <IconLetterU onRefresh={refreshPage} />
 
         <motion.div
-          initial={!showNav ? { y: -250 } : { opacity: 0 }}
-          animate={!showNav ? { y: 0 } : { opacity: 1 }}
+          initial={{ y: -250 }}
+          animate={{ y: 0 }}
           transition={{
             delay: 1,
             duration: 1,
