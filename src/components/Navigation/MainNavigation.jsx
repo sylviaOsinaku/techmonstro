@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./MainNavigation.module.css";
 import { motion } from "framer-motion";
 import IconLetterU from "../../theme/MyLogo";
@@ -25,6 +25,17 @@ function MainNavigation() {
           }}
         >
           <Link
+            to="hobby"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className={classes["nav__link"]}
+          >
+            Hobby
+          </Link>
+
+          <Link
             to="gallery"
             spy={true}
             smooth={true}
@@ -33,17 +44,6 @@ function MainNavigation() {
             className={classes["nav__link"]}
           >
             Gallerry
-          </Link>
-
-          <Link
-            to="hobby"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className={classes["nav__link"]}
-          >
-            Hubby
           </Link>
 
           <Link

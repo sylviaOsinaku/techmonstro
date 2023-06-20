@@ -29,7 +29,7 @@ const Form = () => {
       newErrors.password = "please enter a password";
     } else if (userPassword.length < 6) {
       isValid = false;
-      newErrors.password = "password length is > 6";
+      newErrors.password = "password should contain at least 6 characters";
     }
 
     setError(newErrors);
@@ -124,12 +124,13 @@ const Form = () => {
             )}
           </div>
           <div className={userPaswordClasses}>
-            <label htmlFor="name">Password</label>
+            <label htmlFor="password">Password</label>
             <input
               type="password"
               id="password"
               onChange={passwordInputHandler}
               value={userPassword}
+              onBlur={handleBlur}
             />
             {error.password && (
               <p className={classes["error-text"]}>{error.password}</p>
@@ -137,13 +138,14 @@ const Form = () => {
           </div>
         </div>
         <div className={emailClasses}>
-          <label htmlFor="name">E-Mail Address</label>
+          <label htmlFor="email">E-Mail Address</label>
           <input
             type="email"
             id="email"
             onChange={emialInputHandler}
             autoComplete="on"
             value={userEmail}
+            onBlur={handleBlur}
           />
           {error.email && (
             <p className={classes["error-text"]}>{error.email}</p>
