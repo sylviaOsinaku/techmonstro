@@ -1,68 +1,51 @@
-# My HubPortfolio Website
+## A project test by Techmonstro
 
-## Available Scripts
+# My Favorite Hobby Web Page
 
-In the project directory, you can run:
+This is a responsive web page that showcases my favorite hobby or interest. It consists of three sections, including an introduction, a photo gallery, and a contact form. The web page is built using React and implements the necessary functionality and styling to provide an interactive user experience.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Overview
 
-### `npm test`
+The purpose of this web page is to share information about my favorite hobby and provide a visually appealing experience for visitors. The introduction section gives a brief overview of the hobby, while the photo gallery showcases images related to the hobby. The contact form allows visitors to get in touch with me for further inquiries or discussions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Introduction section: Provides a concise description of my favorite hobby.
+- Photo gallery: Displays a collection of images related to the hobby. Users can click on the images to view them in a larger format.
+- Contact form: Allows visitors to submit their contact information and message for further communication.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following technologies and tools were used to develop this web page:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React: A JavaScript library for building user interfaces.
+- HTML: Markup language for structuring the web page.
+- CSS: Styling language for visually enhancing the web page.
+- JavaScript: Programming language for implementing interactivity and functionality.
+  -MaterialUI: A 3rd party Library
+  -Framer Motion: tthird party library for animation
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this web page locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository: `git clone https://github.com/sylviaOsinaku/techmonstro.git`
+2. Change to the project directory: `cd techmonstro`
+3. Install dependencies: `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Start the development server: `npm start`
+2. Open your web browser and navigate to `http://localhost:3000`
+3. Explore the different sections of the web page:
+   - Read the introduction to learn about my favorite hobby.
+   - Click on the images in the photo gallery to view them in a larger format.
+   - Fill out the contact form to get in touch with me.
